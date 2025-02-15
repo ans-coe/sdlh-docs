@@ -2,8 +2,8 @@
 # ANS CoE SDLH (Strategic Data Lakehouse) Documentation Deployment
 #
 # This template contains a pipeline definition to extract
-# and create feature branch for SDLH Azure SQL DB
-# https://github.com/ans-coe/sdlh-azuresql
+# and create feature branch for SDLH Documentation
+# https://github.com/ans-coe/sdlh-docs
 #################################################################
 parameters:
 - name: pat_token
@@ -50,7 +50,7 @@ steps:
   inputs:
     script: |
       rm -r Documentation
-      tar -xzf "SDLH-DOCS.tar.gz" -C ./DOCUMENTION
+      tar -xzf "SDLH-DOCS.tar.gz" -C ./Documentation
       rm "SDLH-DOCS.tar.gz"
 
 - task: CmdLine@2
