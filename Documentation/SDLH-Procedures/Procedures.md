@@ -3,31 +3,27 @@
 
 # ISO Document Control
 
-| Document Control | |
-| --- | --- |
-| Document Name: | ANS DCoE – SDLH v2 - Procedures |
-| Date Originated: | 19/01/2023 |
-| Status: | Current |
-| Document Author(s): | Tom Legge, Darren Price, Beth Fleming, Jason Rogers |
-| Document Owner: | Tom Legge |
-| Approved by: | Darren Price |
-| Next Planned Review Date: | 01/07/2025 |
+## Document Control
+- Document Name: | ANS DCoE – SDLH v2 - Procedures 
+- Date Originated: | 19/01/2023 
+- Status: | Current 
+- Document Author(s): | Tom Legge, Darren Price, Beth Fleming, Jason Rogers
+- Document Owner: | Tom Legge
+- Approved by: | Darren Price
+- Next Planned Review Date: | 01/07/2025
 
-| Version Control | |
-| --- | --- |
-| **Version Date** | **Comments / Amendments** |
-| 19/01/2024 | v0.1: INITIAL DRAFT |
-| 26/04/2024 | v1.0: basic processes documented |
-| 01/06/2024 | v1.1: expaned initial draft |
-| 30/10/2024 | v.1.11 expanded to incorporate some changes as part of SDLH 2.33 |
+## Version Control
+- 19/01/2024 | v0.1: INITIAL DRAFT
+- 26/04/2024 | v1.0: basic processes documented
+- 01/06/2024 | v1.1: expaned initial draft
+- 30/10/2024 | v.1.11 expanded to incorporate some changes as part of SDLH 2.33
 
-| Document Team |||
-| --- | --- | --- |
-| **Name** | **Role** | **E-mail** |
-| Tom Legge | Data Solution Architect | Tom.legge@ans.co.uk |
-| Darren Price | Data Solution Architect | Darren.price@ans.co.uk |
-| Andrei Dumitru | Data Engineer | Andrei.dumitru@ans.co.uk |
-| Beth Fleming | Data Engineer | Beth.fleming@ansgroup.co.uk |
+## Document Team
+
+- Tom Legge | Data Solution Architect | Tom.legge@ans.co.uk 
+- Darren Price | Data Solution Architect | Darren.price@ans.co.uk 
+- Andrei Dumitru | Data Engineer | Andrei.dumitru@ans.co.uk 
+- Beth Fleming | Data Engineer | Beth.fleming@ansgroup.co.uk 
 
 
 # Overview
