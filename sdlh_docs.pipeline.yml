@@ -49,9 +49,7 @@ steps:
   displayName: 'Extract Upstream Zip'
   inputs:
     script: |
-      rm -r docs
-      mkdir docs
-      tar -xzf "SDLH-DOCS.tar.gz" -C docs
+      tar -xzf "SDLH-DOCS.tar.gz" -C docs/sdlh
       rm "SDLH-DOCS.tar.gz"
 
 - task: CmdLine@2
