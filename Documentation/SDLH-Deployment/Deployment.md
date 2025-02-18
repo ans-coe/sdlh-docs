@@ -9,7 +9,7 @@ This document describes three related but stand-alone procedures:
 
  
 
-# Pre-requisites 
+# 0. Pre-requisites 
 
 - You have access to the ANS Github repo (https://github.com/ans-coe)  
 - Sigma deployed to customer environment. 
@@ -53,9 +53,11 @@ In progress..
 
 In progress..
 
-## 1d. Documentation GitHub repo
+## 1d. Documentation GitHub Repo
 
-In progres..
+1. Edit the github repo (www.github.com/ans-coe/sdlh-docs) directly inside a branch you create using the naming convention 'release/x.x.x' where x.x.x is the next available version number. Documentation that is deployed to customer environments is inside the folder 'Documentation'. Edit or create files within this folder. Increment the version number in the file 'VERSION'.
+2. Merge your branch back into main with a pull request.
+3. This should trigger the github action job to create a new release.
 
 # 2. Initial Deployment to customer environment (github -> customer DevOps)
 
@@ -158,7 +160,14 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 17. Approve and Complete the ‘Pull Request’. 
 18. Cancel pipeline run ‘synapse_sql_serverless_deployment’. (If it has automatically started) 
 19. Run pipeline ‘synapse_sql_serverless_deployment’ but select 'deploy_dev_enabled', uncheck 'deploy_test_enabled', uncheck 'deploy_prod_enabled' and finally uncheck ‘deploy_metadata_enabled’ if checked (options in the modal window). 
-20. Once complete, check the metadata form has been successfully loaded into the storage account. 
+20. Once complete, check the metadata form has been successfully loaded into the storage account.
+
+## Deploy Document Repo to Customer DevOps
+1. Download the file 'sdlh_docs.pipeline.yml' from the sdlh-docs repo.
+2. In customer devops, create a new repo named 'documentation'
+4. In the customer devops 'Documentation repo, create a folder called 'pipelines' and upload the 'sdlh_docs.pipeline.yaml' file to it. Commit this change.
+5. Go to pipelines in the left hand menu and create 'new pipeline', select 'Azure Repos Git' to the question 'Where is your code?'.
+6. Select the ‘documentation’ repository, and then ‘Existing Azure Pipelines YAML file’, and then select the sdlh_docs.pipeline.yml file. 
 
 
 # 3. Updating SDLH deployment
