@@ -167,7 +167,7 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 1. Download the file 'sdlh_docs.pipeline.yml' from the sdlh-docs repo.
 2. In customer devops, create a new repo named 'documentation'
 4. In the customer devops 'documentation' repo, create a folder called 'pipelines' and upload the 'sdlh_docs.pipeline.yaml' file to it. Commit this change.
-5. In the customer devops 'documentation' repo, create a folder called 'docs'
+5. In the customer devops 'documentation' repo, create a folder called 'docs' (you will have to put in a dummy file, because you can't create empty folders in devops)
 6. Go to pipelines in the left hand menu and create 'new pipeline', select 'Azure Repos Git' to the question 'Where is your code?'.
 7. Select the ‘documentation’ repository, and then ‘Existing Azure Pipelines YAML file’, and then select the sdlh_docs.pipeline.yml file. 
 8. Click ‘Save’ (under the ‘Run’ dropdown). 
@@ -175,11 +175,17 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 10. Rename pipeline to 'sdlh_documentation_deployment ' and click ‘Save’. 
 11. Click ‘Run’ and enter the ‘Personal Access Token’ in the modal window. 
 12. Click ‘Run’ again (in the modal window). 
-
 13. Once the pipeline run has completed, navigate to the newly created preview branch in the documentation repo. 
 15. Review preview branch in customer devOps. 
 16. Create ‘Pull Request’ to merge into main. 
-17. Approve and Complete the ‘Pull Request’. 
+17. Approve and Complete the ‘Pull Request’.
+18. Go to 'Overview > Wiki' in Devops (customer)
+19. Click 'Publish code as wiki'
+20. Select the 'documentation' repository in the modal window that appears
+21. Select the 'main' branch
+22. Select the 'docs' folder
+23. Name your wiki (e.g. 'Data Platform')
+24. Click 'Publish'
 
 # 3. Updating SDLH deployment
 
@@ -219,6 +225,6 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 
 ## Documentation Upgrade
 
-In progres..
-
-##
+1. Run the pipeline 'sdlh_documentation_deployment'
+2. When complete, navigate to 'documentation' repo and go to the newly created branch 
+3. Complete a pull request for this branch and then approve the merge 
