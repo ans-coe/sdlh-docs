@@ -39,7 +39,7 @@ steps:
     script: |
       if [[ ${{ parameters.release_version }} == "latest" ]]; then
         BUNDLE_URL=$(curl -s https://api.github.com/repos/ans-coe/sdlh-docs/releases/latest | jq -r '.assets[] | select(.name == "SDLH-DOCS.tar.gz") | .browser_download_url')
-        wget -q "$BUNDLE_URL" -O "SDLH-SQL.tar.gz"
+        wget -q "$BUNDLE_URL" -O "SDLH-DOCS.tar.gz"
       else
         BUNDLE_URL=$(curl -s https://api.github.com/repos/ans-coe/sdlh-docs/releases/tags/v${{ parameters.release_version }} | jq -r '.assets[] | select(.name == "SDLH-DOCS.tar.gz") | .browser_download_url')
         wget -q "$BUNDLE_URL" -O "SDLH-DOCS.tar.gz"
