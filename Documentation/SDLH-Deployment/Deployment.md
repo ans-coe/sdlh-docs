@@ -167,7 +167,7 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 1. Download the file 'sdlh_docs.pipeline.yml' from the sdlh-docs repo.
 2. In customer devops, create a new repo named 'documentation'
 4. In the customer devops 'documentation' repo, create a folder called 'pipelines' and upload the 'sdlh_docs.pipeline.yaml' file to it. Commit this change.
-5. In the customer devops 'documentation' repo, create a folder called 'docs' (you will have to put in a dummy file, because you can't create empty folders in devops)
+5. In the customer devops 'documentation' repo, create a folder and subfolder called 'docs/sdlh' (you will have to put in a dummy file, because you can't create empty folders in devops)
 6. Go to pipelines in the left hand menu and create 'new pipeline', select 'Azure Repos Git' to the question 'Where is your code?'.
 7. Select the ‘documentation’ repository, and then ‘Existing Azure Pipelines YAML file’, and then select the sdlh_docs.pipeline.yml file. 
 8. Click ‘Save’ (under the ‘Run’ dropdown). 
@@ -186,6 +186,7 @@ The steps below are also shown in the video: ANS DCoE - SDLH - Initial Deploymen
 22. Select the 'docs' folder
 23. Name your wiki (e.g. 'Data Platform')
 24. Click 'Publish'
+25. OPTIONAL - if you have existing wiki pages in customer wiki, create these as new files within the 'documentation' repo, within a new subfolder inside the 'docs' folder (e.g. docs/data-platform)
 
 # 3. Updating SDLH deployment
 
