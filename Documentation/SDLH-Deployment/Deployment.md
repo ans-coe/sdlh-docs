@@ -1,5 +1,10 @@
 [[_TOC_]]
 
+# Authors
+Tom Legge
+Andrei Dumitru
+Darren Price
+
 # Overview 
 
 This document describes three related but stand-alone procedures:
