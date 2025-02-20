@@ -1,4 +1,6 @@
-# ANS DCoE SDLH v2.X
+# ANS CoE Strategic Data Lakehouse
+# Configuring Access to Resoruces
+
 [[_TOC_]]
 
 # Authors
