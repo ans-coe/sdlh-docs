@@ -1,9 +1,9 @@
 [[_TOC_]]
 
 # Authors
-Tom Legge
-Andrei Dumitru
-Darren Price
+- Tom Legge
+- Andrei Dumitru
+- Darren Price
 
 # Overview 
 
