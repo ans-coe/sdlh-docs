@@ -3,32 +3,8 @@
 
 [[_TOC_]]
 
-# ISO Document Control
-
-| Document Control |     |
-| --- |     | --- |
-| Document Name: | ANS Dcoe - SDLH V2 - LLD - V0.1 20241210.Docx |
-| Date Originated: | 10/12/2024 |
-| Status: | Version 0.1 |
-| Document Author: | Tom Legge |
-| Document Owner: | Tom Legge, Gerhard Groenewald |
-| Approved by: |     |
-| Next Planned Review Date: |     |
-
-| Version Control |     |     |
-| --- |     |     | --- | --- |
-| **Version** | **Date** | **Comments / Amendments** |
-| 0.1 | 10/12/2024 | Initial draft |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-
-| Distribution List |     |     |     |
-| --- |     |     |     | --- | --- | --- |
-| **Name** | **Role** | **Telephone** | **E-mail** |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
+# Author(s)
+Tom Legge
 
 # Framework Overview
 
