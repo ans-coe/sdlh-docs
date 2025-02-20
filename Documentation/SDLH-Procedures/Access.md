@@ -1,8 +1,10 @@
-# ANS DCoE SDLH v2.X
+# ANS CoE Strategic Data Lakehouse
+# Configuring Access to Resoruces
+
 [[_TOC_]]
 
 # Authors
-Tom Legge
+- Tom Legge
 
 # Overview
 This document describes the procedures for accessing  SDLH v2.x.

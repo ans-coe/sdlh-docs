@@ -1,9 +1,12 @@
+# ANS CoE Strategic Data Lakehouse
+# Deployment and update procedures
+
 [[_TOC_]]
 
 # Authors
-Tom Legge
-Andrei Dumitru
-Darren Price
+- Tom Legge
+- Andrei Dumitru
+- Darren Price
 
 # Overview 
 
