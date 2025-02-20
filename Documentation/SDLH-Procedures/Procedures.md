@@ -1,4 +1,6 @@
-# ANS DCoE SDLH v2
+# ANS CoE Strategic Data Lakehouse
+# Procedures
+
 [[_TOC_]]
 
 # Authors
