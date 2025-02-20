@@ -2,7 +2,7 @@
 [[_TOC_]]
 
 # Authors
-Tom Legge
+- Tom Legge
 
 # Overview
 This document describes the procedures for accessing  SDLH v2.x.
