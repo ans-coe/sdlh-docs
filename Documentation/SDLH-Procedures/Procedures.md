@@ -2,10 +2,10 @@
 [[_TOC_]]
 
 # Authors
-Tom Legge
-Andrei Dumitru
-Darren Price
-Jason Rogers
+- Tom Legge
+- Andrei Dumitru
+- Darren Price
+- Jason Rogers
 
 # Overview
 This document describes the procedures for using SDLH v2.x.
