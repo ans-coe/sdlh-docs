@@ -3,8 +3,8 @@
 
 [[_TOC_]]
 
-# Author(s)
-Tom Legge
+# Authors
+- Tom Legge
 
 # Framework Overview
 
