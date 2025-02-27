@@ -8,6 +8,7 @@
 - Andrei Dumitru
 - Darren Price
 - Jason Rogers
+- Steve Bettey
 
 # Overview
 This document describes the procedures for using SDLH v2.x.
